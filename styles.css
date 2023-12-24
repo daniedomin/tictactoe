@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  text-size-adjust: 100%;
+}
+
+.container {
+  text-align: center;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 2em;
+  cursor: pointer;
+  border: 1px solid #7515ac;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.alert-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
